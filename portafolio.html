@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Mi portafolio online</title>
+        <meta charset="UTF-8"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/css/normalize.css"/>
+        <!-- <link rel="stylesheet" href="css/normalize.css"/> -->
+        <link rel="stylesheet" href="static/css/estilos.css"/>
+    </head>
+    <body>
+        <header id="yo" class="Header">
+            <nav class="MainMenu">
+                <ul class="MainMenu-list">
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#yo">Yo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#perfil">Perfil</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#trabajo">Mi trabajo</a>
+                    </li>
+                    <li class="MainMenu-item">
+                        <a class="MainMenu-link" href="#contacto">Contáctame</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <figure class="Header-imageContainer">
+                <img src="static/images/avatar.png" alt="@ndbustos" class="Header-image"/>
+                <figcaption class="Header-description">
+                    <a href="http://twitter.com/ndbustos/" target="_blank" class="Header-link">@ndbustos</a>
+                </figcaption>
+                <p class="Header-name">Nidia Bustos</p>
+            </figure>
+        </header>
+        <section id="perfil" class="Profile">
+            <div class="u-containerDefault"> 
+                <h2 class="Profile-title u-title">Mi Perfil</h2>
+
+                <p class="Profile-description">Puedes <strong>visitar</strong> mis redes <span class="Profile-span">sociales</span> si quieres <em>seguirme</em></p>
+
+                <a class="Profile-link" href="http://twitter.com/ndbustos/">@ndbustos</a>
+
+                <a class="Profile-link" href="http://facebook.com/nidiaamm/">nidiaamm</a>
+
+                <a class="Profile-link" href="http://github.com/aryaab/">nidiaamm</a>
+            </div>
+        </section>
+        <section id="trabajo" class="Work">
+            <div class="u-containerDefault"> 
+                <h2 class="Work-title u-title">Mi Trabajo</h2>
+            </div>
+                <article class="Work-item">
+                    <p>
+                        Ingeniero de ejecución en computación, titulada de la Universidad Central de Chile, con 2 años y medio de experiencia en desarrollo de sistemas con lenguajes PHP, JavaScript - Jquery, Html y CSS.
+                    </p>
+                    <p>
+                        Manejo de bases de datos, SQL Server, y Mysql.
+                        Ocupando puestos en empresas ligadas al rubro de la educación y desarrollo de aplicaciones a medida, integración y desarrollo móvil.
+                    </p>
+                </article>
+        </section>
+        <footer id="contacto" class="Footer">
+            <div class="Footer-left">
+                <h3 class="Footer-title">Contacto</h3>
+                <p class="Footer-description">Si quieres contratarme puedes escribirme en este pequeño formulario</p>
+            </div>
+            <form action="" class="Footer-form">
+                <input type="text" placeholder="Nombre" class="Footer-input">
+                <input type="email" placeholder="Email" class="Footer-input">
+                <textarea placeholder="motivo" class="Footer-textarea"></textarea>
+                <button type="submit" class="Footer-button">Contactarme</button>
+            </form>
+        </footer>
+    </body>
+</html>
+
