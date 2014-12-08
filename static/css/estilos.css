@@ -1,5 +1,4 @@
 /* Utilidades */
-
 .bottom
 {
     margin-bottom: 1em;
@@ -86,7 +85,7 @@
 
 /* Profile */
 
-.Profile{
+.Profile{ 
     text-align: center;
 }
 
@@ -99,9 +98,6 @@
     margin-right: .5em;
     display: inline-block;
 }
-
-
-
 
 .Profile-description{
     margin-bottom: 1em;
