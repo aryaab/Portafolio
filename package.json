@@ -1,6 +1,6 @@
 {
+	"version": "node >= 0.4.x",
 	"scripts": {
     "start": "node server.js"
-    },
-    "engine": "node >= 0.4.1"
+    }
 }
