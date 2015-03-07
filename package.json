@@ -1,8 +1,6 @@
 {
-	"name": "Nidia Bustos",
-
 	"scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
+    },
     "engine": "node >= 0.4.1"
-  }
 }
