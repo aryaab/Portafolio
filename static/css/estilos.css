@@ -127,7 +127,8 @@
 /* Footer */
 
 .Footer{
-    background-image: url('../images/footer.png');
+    /*background-image: url('../images/footer.png');*/
+    background: #1E1E1E;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
