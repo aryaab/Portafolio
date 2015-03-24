@@ -50,6 +50,7 @@
     margin-top: 3.75em
     padding: 1em 0
     text-align: center
+    width 100%
 
 .Header-image
     border:5px solid white
@@ -73,6 +74,7 @@
 /* Profile */
 .Profile
     text-align: center
+    width 100%
 
 .Profile-link
     background-color: orange
@@ -85,15 +87,19 @@
 
 .Profile-description
     margin-bottom: 1em
+   
+.Profile-title
+	width 100%
 
 /* Work */
 .Work
     text-align: center
-
+    width 100%
+   
 .Work-item
-    display: inline-block
-    width: 500px
-    text-align: left
+    // display: inline-block
+    // text-align: left
+    position relative
 
 .Work-imageContainer
     margin: 0 2em 1em 0
@@ -106,24 +112,18 @@
 /* Footer */
 .Footer
     background: #1E1E1E
-    background-repeat: no-repeat
     background-position: center
     background-size: cover
     text-align: center
     padding: 2em 0
+    width 100%
 
 .Footer-description
     color: white
     font-weight: normal
 
 .Footer-left
-    width: 500px
-    display: inline-block
-    vertical-align: top
-
-.Footer-form
-    padding: 2em
-    width: 18em
+    width: auto
     display: inline-block
     vertical-align: top
 
@@ -131,26 +131,14 @@
     color: white
     font-weight: normal
 
-.Footer-textarea,
-.Footer-input
-    background: white
-    border: none
-    display: block
-    border-radius: 2em
-    padding: .8em
-    outline: 0
-    margin: 0 auto .8em
-
-.Footer-button
-    background: orange
-    border: none
-    color: white
-    padding: .5em
-    border-radius: 1.5em
-
 .purpura
     color: #00CCCC
     
-@media screen and (max-width:480px)
-	.Footer
-    background: pink
+@media screen and (max-width: 767px)
+	.Header
+		width: 100%
+	.contacto
+		display none
+	
+	.u-containerDefault
+    	width: 20em   	
